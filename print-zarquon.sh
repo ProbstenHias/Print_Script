@@ -22,5 +22,5 @@ FILENAME=$(basename $FILE)
 
 echo "PRINTING: $FILE @ $PRINTER at $TARGET"
 
-scp $FILE $TARGET:~/Downloads
-ssh $TARGET "lp -d $PRINTER ~/Downloads/$FILENAME"
+scp $FILE $TARGET:/tmp
+ssh $TARGET "lp -d $PRINTER /tmp/$FILENAME"
