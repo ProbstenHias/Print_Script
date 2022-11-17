@@ -1,7 +1,7 @@
 # Print Script for Uni Stuttgart
 
 This script allows printing at the two printers located
-in the Computer Science Faculty at the University of Stuttgart.
+in the Computer Science Faculty at the University of Stuttgart via Marvin.
 
 ## Usage
 
@@ -19,7 +19,7 @@ This script defaults to print at zarquon.
 Specify **duesentrieb** as the third argument
 to print at the printer located in the GS-Pool.
 
-## Tipps
+## Tips
 
 Specify an alias for easier usage, e.g.
 
